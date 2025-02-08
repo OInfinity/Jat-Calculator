@@ -10,9 +10,9 @@ body {
 
 h1 {
     color: white;
-    font-family: Arial, Verdana, sans-serif; /* "Cursive" is not needed here */
-    font-weight: bold; /* "font-size: bold;" is incorrect */
-    font-style: oblique; /* Fixed typo: "oblic" → "oblique" */
+    font-family: Arial, Verdana, cursive sans-serif; 
+    font-weight: bold; /* "font-size: bold;" 
+    font-style: oblique; 
     letter-spacing: 2px;
 }
 
