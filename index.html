@@ -1,46 +1,57 @@
-<!Doctype html>
-<html lang="EN">
-	<head>
-		<meta charset=UTF-8>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Calculator</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div class="myGrid">
-			<div class="lineBorder">
-			<h1><span style="font-size: 3rem; letter-spacing:2px">Simple<br/><span style="color:blue; line-height:1">Calculator </span></span>  using<br/><span style="text-decoration:underline; letter-spacing:3px; line-height:2"><a href="https://www.w3schools.com"; style="text-decoration:none; color:white">html/css and javascript</a></span></h1>
-			</div>
-			<div class="lineBorder">
-				<div class="calculatorBody">
-					<h1 style="color:white">Calc</h1>
-					<input class="inputForm" type="text" id="display" onclick="calculatorScreen()" readonly>
-					<div class="calculatorButtons">
-						<button class="orangeColor" onclick="removeAll()" >AC</button>
-						<button class="greenColor" onclick="sourceCode()">Code</button>
-						<button class="orangeColor" onclick="theInput('%')">%</button>
-						<button class="orangeColor" onclick="theInput('/')">/</button>
-						<button onclick="theInput('7')">7</button>
-						<button onclick="theInput('8')">8</button>
-						<button onclick="theInput('9')">9</button>
-						<button class="orangeColor" onclick="theInput('*')">*</button>
-						<button onclick="theInput('4')">4</button>
-						<button onclick="theInput('5')">5</button>
-						<button onclick="theInput('6')">6</button>
-						<button class="orangeColor" onclick="theInput('-')">-</button>
-						<button onclick="theInput('1')">1</button>
-						<button onclick="theInput('2')">2</button>
-						<button onclick="theInput('3')">3</button>
-						<button class="orangeColor" onclick="theInput('+')">+</button>
-						<button onclick="theInput('0')">0</button>
-						<button onclick="theInput('.')">.</button>
-						<button onclick="remove()">X</button>
-						<button class="orangeColor" onclick="operateCalc()">=</button>
-					</div>
-				</div>
-			</div>
-		<footer style="display:flex; justify-content:center; margin-top:-1cm; color:#654520; font-family: sans-serif">@Oumar Ouonogo</footer>
-		</div>
-	<script src="calc.js"></script>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="myGrid">
+        <div class="lineBorder">
+            <h1>
+                <span style="font-size: 3rem; letter-spacing: 2px">Simple<br/>
+                    <span style="color: blue; line-height: 1">Calculator</span>
+                </span> using<br/>
+                <span style="text-decoration: underline; letter-spacing: 3px; line-height: 2">
+                    <a href="https://www.w3schools.com" style="text-decoration: none; color: white;">
+                        HTML, CSS, and JavaScript
+                    </a>
+                </span>
+            </h1>
+        </div>
+        <div class="lineBorder">
+            <div class="calculatorBody">
+                <h1 style="color: white;">Calc</h1>
+                <input class="inputForm" type="text" id="display" readonly>
+                <div class="calculatorButtons">
+                    <button class="orangeColor" onclick="removeAll()">AC</button>
+                    <button class="greenColor" onclick="sourceCode()">Code</button>
+                    <button class="orangeColor" onclick="theInput('%')">%</button>
+                    <button class="orangeColor" onclick="theInput('/')">/</button>
+                    <button onclick="theInput('7')">7</button>
+                    <button onclick="theInput('8')">8</button>
+                    <button onclick="theInput('9')">9</button>
+                    <button class="orangeColor" onclick="theInput('*')">*</button>
+                    <button onclick="theInput('4')">4</button>
+                    <button onclick="theInput('5')">5</button>
+                    <button onclick="theInput('6')">6</button>
+                    <button class="orangeColor" onclick="theInput('-')">-</button>
+                    <button onclick="theInput('1')">1</button>
+                    <button onclick="theInput('2')">2</button>
+                    <button onclick="theInput('3')">3</button>
+                    <button class="orangeColor" onclick="theInput('+')">+</button>
+                    <button onclick="theInput('0')">0</button>
+                    <button onclick="theInput('.')">.</button>
+                    <button onclick="remove()">X</button>
+                    <button class="orangeColor" onclick="operateCalc()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="display: flex; justify-content: center; margin-top: -1cm; color: #654520; font-family: sans-serif;">
+        &copy; Oumar Ouonogo
+    </footer>
+    <script src="calc.js"></script>
+</body>
 </html>
