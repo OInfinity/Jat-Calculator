@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+    display:flex;
+    justify-content:center;
+}
+h1{
+ color:white;
+ font-family: Arial, Verdana, Cursive, sans-serif;
+ font-size: bold;
+ font-style:oblic;
+ letter-spacing:2px;		
+}
+.myGrid{
+    border:4px solid black;
+    background-image:url('background2.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height:768;
+    width: 1400px;
+    margin:1cm;
+    margin-bottom:2cm;
+}
+.lineBorder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;	
+}
+.calculatorBody{
+    background-color:#213555;
+    height: 14cm;
+    width: 8cm;
+    padding:8px;
+    margin-left:3.5cm;
+    border-radius:6px;
+    }
+.calculatorButtons{
+    display:grid;
+    grid-template-columns: 1.5cm 1.5cm 1.5cm 1.5cm;
+    grid-template-rows: 1.5cm 1.5cm 1.5cm 1.5cm 1.5cm;
+    gap: 15px;
+    padding:15px;
+}
+.orangeColor{
+    background-color: orange;
+}
+.greenColor{
+    color: green;
+    font-size:1rem;
+}
+button{
+    border-radius: 50% ;
+    font-size:1.5rem;
+}
+.inputForm{
+    border-radius:5px;
+    height: 2cm;
+    width:8cm;
+    font-size:1.5rem;
+}
