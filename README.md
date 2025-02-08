@@ -17,4 +17,4 @@ HTML/CSS/JavaScript
 
 ## 🌍 Live Demo  
 
-🔗 [View the Calculator App](https://yourusername.github.io/calculator/)
+🔗 [View the Calculator App](https://oinfinity.github.io/JateCalculator/)
