@@ -3,7 +3,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; /* Added to center content vertically */
-    width: 90%;
     min-height: 100vh; /* Ensures full viewport height */
     margin: 0; /* Prevents default body margin */
 }
