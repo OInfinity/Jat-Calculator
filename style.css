@@ -10,9 +10,10 @@ body {
 
 h1 {
     color: white;
-    font-family: Arial, Verdana, cursive sans-serif; 
-    font-weight: bold; /* "font-size: bold;" 
-    font-style: oblique; 
+    font-family: Arial, Verdana, sans-serif; 
+    font-weight: bold; 
+    font-size: bold;
+    font-style: oblic; 
     letter-spacing: 2px;
 }
 
